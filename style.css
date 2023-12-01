@@ -1,0 +1,198 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.hero-sec {
+    background: url('./Hero\ Image.png') center/cover;
+}
+.top-info-bar {
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-details {
+    font-size: 14px;
+    margin-left: 5%;
+    color: white;
+}
+
+.login-signup {
+    margin-right: 2rem;
+}
+
+.login-signup a {
+    text-decoration: none;
+    margin-left: 2px;
+    margin-right: 40px;
+}
+
+/* Style the links when hovered */
+.login-signup a:hover {
+    text-decoration: underline;
+}
+
+.navbar {
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    margin-left: 50px;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #E0B100;
+    display: flex;
+    align-items: center;
+}
+
+.nav-items {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-items a:hover {
+    padding-bottom: 5px; /* Increase space for the border on hover */
+    border-bottom: 2px solid #E0B100; /* Set the border color on hover */
+}
+
+.nav-items li {
+    margin-right: 20px;
+}
+
+.nav-items a {
+    color: #fff;
+    padding-bottom: 2px; /* Add space for the border */
+    position: relative; /* Create a stacking context */
+    text-decoration: none;
+    display: inline-block; /* Make the anchor element a block-level element */
+    transition: background-color 0.3s ease-in-out, border-radius 0.3s ease-in-out;
+
+}
+
+.nav-items a:hover {
+    background-color: #E0B100; /* Set the background color on hover */
+    border-radius: 50%; /* Make a circular border on hover */
+}
+
+.head-sec {
+   height: 80%;
+   color: white;
+   margin-left: 50px;
+   margin-right: 35%;
+   border: black;
+}
+
+.head-sec h1 {
+    font-size: 5rem;
+    margin-bottom: 10px;
+}
+
+.head-sec p {
+    margin-top: 5px;
+    font-size: 1.5rem;
+    display: inline;
+}
+
+.flightbook-d {
+    margin-top: 3rem;
+}
+
+img {
+    margin: 10px;
+}
+.bookbutton {
+    text-align: right;
+    margin: 3rem;
+}
+
+.destinations {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dtext {
+    margin-right: 5%;
+    margin-left: 50px;
+    max-width: 600px; /* Adjust as needed */
+    padding-right: 10px; /* Add some spacing between text and images, adjust as needed */
+    margin-right: 50px; 
+    font-size: 3rem;
+}
+
+.dtext p{
+    font-size: 1.5rem;
+}
+
+.imgs {
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+
+}
+
+.imgs img {
+
+    width: 220px;
+    height: auto;
+    transition: transform 0.25s ease-in-out;
+}
+
+.imgs img:hover {
+    transform: scale(1.1); /* Increase the size on hover */
+}
+
+footer {
+    text-align: center;
+}
+
+img {
+    transition: transform 0.25s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+.offers {
+    display: flex;
+    align-items: baseline;
+}
+
+.otext {
+    margin: 5rem;
+    width: 40%;
+    margin-left: 10rem;
+    font-weight: bold;
+}
+
+.oimg {
+    margin-left: 20rem;
+}
+
+.otext p {
+    margin-bottom: 40px;
+    font-weight: lighter;
+}
+
+.sub {
+    text-align: center;
+}
+
+.fnav {
+    display: flex;
+    justify-content: space-evenly;
+}
